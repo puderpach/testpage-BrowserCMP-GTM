@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Date Layer Test</title>
+    <!-- Smart Data Protector -->
+    <meta data-privacy-proxy-server="https://privacy-proxy-server.usercentrics.eu">
+    <script type="application/javascript"
+        src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"></script>
+    <script>
+        uc.deactivateBlocking([
+            'HkocEodjb7', // Google Analytics is not blocked
+            'HyEX5Nidi-m', // Vimeo is not blocked
+            'ko1w5PpFl' // Facebook Pixel is not blocked
+        ]);
+    </script>
+    <!-- End Smart Data Protector -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KHX59ST');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/plain" data-usercentrics="Vimeo">{
+            console.log("Vimeo launched");
+            let iframe = document.createElement('iframe');
+            let vimeoWrapper = document.getElementById("vimeo-wrapper")
+            let vimeoInside = document.getElementById("vimeo-wrapper-inside").style.display="none";
+            iframe.src = "https://player.vimeo.com/video/40409289";
+            iframe.style.width = "640px";
+            iframe.style.height = "360px";
+            vimeoWrapper.appendChild(iframe);
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHX59ST" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1>Testpage Google Tag Manager with Smart Data Protector</h1>
+    <h2>Additional Technologies in GTM</h2>
+    <h3>
+        <ul>
+            <li>Google Analytics (excluded from SDP)</li>
+            <li>Facebook Pixel (excluded from SDP)</li>
+        </ul>
+    </h3>
+    <h2>Youtube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5QVedTOKVyE" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <h2>Twitter Embed</h2>
+    <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">I WON THIS ELECTION, BY A LOT!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a
+            href="https://twitter.com/realDonaldTrump/status/1325099845045071873?ref_src=twsrc%5Etfw">November 7,
+            2020</a>
+    </blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div id="fb-root"></div>
+    <h2>Facebook</h2>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v9.0"
+        nonce="GkSZJvDN"></script>
+    <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-show-text="true"
+        data-width="">
+        <blockquote cite="https://de-de.facebook.com/20531316728/posts/10154009990506729/"
+            class="fb-xfbml-parse-ignore">Gepostet von <a href="https://www.facebook.com/facebookapp/">Facebook App</a>
+            am&nbsp;<a href="https://de-de.facebook.com/20531316728/posts/10154009990506729/">Donnerstag, 27. August
+                2015</a></blockquote>
+    </div>
+    <h2>Google Maps</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170348.01316653966!2d11.401751848858343!3d48.1548256449296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f9a38c5fd9%3A0x10cb84a7db1987d!2zTcO8bmNoZW4!5e0!3m2!1sde!2sde!4v1605042130541!5m2!1sde!2sde"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    <h2>Podigee</h2>
+    <script class="podigee-podcast-player"
+        src="https://cdn.podigee.com/podcast-player/javascripts/podigee-podcast-player.js"
+        data-configuration="https://feed-dive.podigee.io/5-was-macht-ein-podcast-hoster-eigentlich/embed?context=external"></script>
+    <h2>Vimeo Video (excluded from SDP)</h2>
+    <div id=vimeo-wrapper>
+        <div id=vimeo-wrapper-inside
+            style="width:420px;height:261px;border-radius:1px;box-shadow:  rgba(0, 0, 0, 0.5) 0px 3px 6px 0px;">
+            <div id=vimeo-wrapper-text>
+                <h3 style="font-size: 18px;font-weight: bold;margin-top: 0px; text-align:center; padding:10px">
+                    Wir benötigen Ihre Zustimmung, um Vimeo Video zu laden!</h3>
+                <div style="font-size: 18px;font-weight: bold; text-align:center; padding:10px"></div>
+                Wir verwenden Vimeo, um Inhalte einzubetten. Dieser Service kann Daten zu Ihren Aktivitäten
+                sammeln. Bitte lesen Sie die Details durch und stimmen Sie der Nutzung des Service zu, um diese
+                Inhalte anzuzeigen.
+            </div>
+            <button onclick="usercentrics.updateCornerModalIsVisible(true);"
+                style="font-size: 16px;font-weight: bold;display: inline-block;height: 40px;padding-top: 10px;letter-spacing: 1.2;padding-left: 25px;padding-right: 25px;margin-bottom: 15px;background: #cecece;color: rgb(0, 0, 0);border-radius:4px;border-color:#fff">Mehr
+                Informationen</button>
+            <button onclick="usercentrics.updateConsents([{'templateId':'HyEX5Nidi-m', 'status':true}])"
+                style="font-size: 16px;font-weight: bold;display: inline-block;height: 40px;padding-top: 10px;letter-spacing: 1.2;padding-left: 25px;padding-right: 25px;margin-bottom: 15px;background: #0096ff;color: #fff;border-radius:4px;border-color:#fff">Akzeptieren</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
