@@ -1,1 +1,1 @@
-# https://puderpach.github.io/testpage-Vanilla-GTM/
+# https://puderpach.github.io/testpage-BrowserCMP-GTM/
